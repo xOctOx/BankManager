@@ -26,8 +26,8 @@ BankAccount (classe parent)
 |--------|------|-----------|
 | `BankAccount` | Classe parent commune à tous les comptes | `account`, `balance` |
 | `CheckingAccount` | Compte courant avec limite de découvert | hérite + `limit` |
-| `SavingsAccount` | Compte épargne avec plafond de dépôt | hérite + `limit` |
-| `COD` | Certificat de dépôt avec limite de retrait | hérite + `limit` |
+| `SavingsAccount` | Compte épargne avec plafond de dépôt | hérite|
+| `COD` | Certificat de dépôt avec limite de retrait | hérite|
 
 ---
 
