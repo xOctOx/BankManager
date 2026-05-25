@@ -50,12 +50,21 @@ git clone https://github.com/ton-username/BankManager.git
 *****Compte Courant*****
 Compte : compte courant
 Solde : 10000
+-- Apres modification --
+Compte : compte courant modifié
+Solde : 99000
 *****Compte Epargne*****
 Compte : compte d'épargne
-solde : 500
+Solde : 500
+-- Apres modification --
+Compte : compte épargne modifié
+Solde : 5000
 *****Certificat de Depot*****
-COD : certificat de dépôt
-solde : 250
+Compte : certificat de dépôt
+Solde : 250
+-- Apres modification --
+Compte : certificat de dépôt modifié
+Solde : 8000
 -----------------
 
 ```
