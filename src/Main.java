@@ -2,10 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-       CheckingAccount ca = new CheckingAccount("compte courant", 10000, 50000);
-       SavingsAccount sa = new SavingsAccount("compte d'épargne", 500, 2300);
-       COD cod = new COD("certificat de dépôt", 250, 5000);
+        //Creation des instances des 3 classes enfants
+       CheckingAccount ca = new CheckingAccount("compte courant", 10000);
+       SavingsAccount sa = new SavingsAccount("compte d'épargne", 500);
+       COD cod = new COD("certificat de dépôt", 250);
 
+
+       // Affichage
+        
        //checkingAccount
         System.out.println("*****Compte Courant*****");
         System.out.println("Compte : " + ca.account);

@@ -1,8 +1,6 @@
 public class SavingsAccount extends BankAccount {
-    private int limit;
 
-    public SavingsAccount(String account, int balance, int limit) {
+    public SavingsAccount(String account, int balance) {
         super(account, balance);
-        this.limit = limit;
     }
 }
